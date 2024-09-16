@@ -4,33 +4,11 @@
     <projectFile profileName="http">ActionTest/ActionTest.csproj</projectFile>
     <projectFile profileName="https">ActionTest/ActionTest.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7395b30-425d-4e76-bddd-62a1bb24c389" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/ActionTest.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Layout/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Layout/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Layout/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Layout/NavMenu.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Pages/Counter.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Pages/Error.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Pages/Home.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Pages/Weather.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/Routes.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Components/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/wwwroot/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/wwwroot/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/wwwroot/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ActionTest/wwwroot/favicon.png" afterDir="false" />
-    </list>
+    <list default="true" id="a7395b30-425d-4e76-bddd-62a1bb24c389" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,28 +20,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2m9XZQTEy1nxm7wXUbaETPzHnbU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ActionTest: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ActionTest: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ActionTest: http">
     <configuration name="ActionTest: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ActionTest/ActionTest.csproj" />
@@ -117,11 +95,17 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
@@ -142,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726489820784</updated>
-      <workItem from="1726489822056" duration="446000" />
+      <workItem from="1726489822056" duration="1851000" />
     </task>
     <servers />
   </component>
