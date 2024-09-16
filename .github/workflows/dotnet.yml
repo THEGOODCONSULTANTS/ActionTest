@@ -26,4 +26,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: build-output
-        path: ./bin/Release/net8.0/ # Pfad zu den gebauten Artefakten
+        path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ # Pfad zu den gebauten Artefakten
