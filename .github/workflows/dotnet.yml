@@ -22,6 +22,8 @@ jobs:
       run: dotnet restore
     - name: Build    
       run: dotnet build --configuration Release
+    - name: Publish
+      run: dotnet publish --configuration Release 
     - name: Upload artifact
       uses: actions/upload-artifact@v3
       with:
