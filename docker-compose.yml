@@ -1,0 +1,6 @@
+﻿services:
+  actiontest:
+    image: actiontest
+    build:
+      context: .
+      dockerfile: ActionTest/Dockerfile
