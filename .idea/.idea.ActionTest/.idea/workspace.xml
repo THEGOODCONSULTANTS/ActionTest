@@ -8,7 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7395b30-425d-4e76-bddd-62a1bb24c389" name="Changes" comment="" />
+    <list default="true" id="a7395b30-425d-4e76-bddd-62a1bb24c389" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ActionTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ActionTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ActionTest/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/ActionTest/Components/Pages/Home.razor" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726489820784</updated>
-      <workItem from="1726489822056" duration="1851000" />
+      <workItem from="1726489822056" duration="2856000" />
     </task>
     <servers />
   </component>
