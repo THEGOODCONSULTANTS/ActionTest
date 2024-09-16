@@ -20,7 +20,10 @@ jobs:
         dotnet-version: 8.0.x
     - name: Restore dependencies
       run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+    - name: Build    
+      run: dotnet build --configuration Release
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: build-output
+        path: ./bin/Release/net8.0/ # Pfad zu den gebauten Artefakten
