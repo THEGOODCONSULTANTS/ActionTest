@@ -39,7 +39,7 @@ jobs:
         with:
           path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/
       - name: make image 
-        run: docker build . --file ActionTest/Dockerfile.action --tag my-image-name:$(date +%s) 
+        run: ls /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ #   docker build . --file ActionTest/Dockerfile.action --tag my-image-name:$(date +%s) 
 
         
         
