@@ -29,3 +29,6 @@ jobs:
       with:
         name: build-output
         path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ # Pfad zu den gebauten Artefakten
+    
+    - name: build docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)      
