@@ -24,11 +24,10 @@ jobs:
       run: dotnet build --configuration Release
     - name: Publish
       run: dotnet publish --configuration Release 
+    - name: build docker image
+      run: docker build . --file ActionTest/Dockerfile.action --tag my-image-name:$(date +%s)     
     - name: Upload artifact
       uses: actions/upload-artifact@v3
       with:
         name: build-output
-        path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ # Pfad zu den gebauten Artefakten
-    
-    - name: build docker image
-      run: docker build . --file ActionTest/Dockerfile.action --tag my-image-name:$(date +%s)      
+        path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ # Pfad zu den gebauten Artefakte 
