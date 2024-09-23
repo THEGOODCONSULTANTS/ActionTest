@@ -29,19 +29,13 @@ jobs:
       with:
         name: build-output
         path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ # Pfad zu den gebauten Artefakte 
+    
+    - name: Log in to Docker Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ${{ secrets.DOCKER_REGISTRY }}
+        username: ${{ secrets.DOCKER_USERE }}
+        password: ${{ secrets.DOCKER_PASS }}        
 
-  make:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Download math result for job 1
-        uses: actions/download-artifact@v4
-        with:
-          path: /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/
-      - name: make image 
-        run: ls /home/runner/work/ActionTest/ActionTest/ActionTest/bin/Release/net8.0/ #   docker build . --file ActionTest/Dockerfile.action --tag my-image-name:$(date +%s) 
-
-        
-        
-       
-        
+    - name: Build Docker image
+      run: docker build . -t ${{ secrets.DOCKER_REGISTY }}/ghtest:latest
