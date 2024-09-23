@@ -38,7 +38,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASS }}        
 
     - name: Build Docker image
-      run: docker build . -t ${{ secrets.DOCKER_REGISTY }}/ghtest:latest
+      run: docker build . -t ${{ secrets.DOCKER_REGISTRY }}/ghtest:latest
    
     - name: Push Docker image
-      run: docker push ${{ secrets.DOCKER_REGISTY }}/ghtest:latest
+      run: docker push ${{ secrets.DOCKER_REGISTRY }}/ghtest:latest
